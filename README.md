@@ -1,1 +1,1 @@
-# TextVisualizer
+#PageInsighter: TextVisualizer
