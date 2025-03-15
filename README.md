@@ -50,7 +50,7 @@ Ensure you have the following installed:
 1. **Clone the Repository**
 
    ```sh
-   git clone https://github.com/yourusername/PageInsighter.git](https://github.com/R17358/PageInsighter---AI-Text-Visualizer.git
+   git clone https://github.com/R17358/PageInsighter_AI-Text-Visualizer.git
    cd PageInsighter
    ```
 
