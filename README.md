@@ -39,7 +39,7 @@ Ensure you have the following installed:
 - [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
 - Required Python libraries:
   ```sh
-  pip install streamlit pytesseract openai opencv-python Flask numpy requests
+  pip install streamlit pytesseract google-generativeai opencv-python Flask numpy requests
   ```
 
 ### Setup
@@ -55,16 +55,25 @@ Ensure you have the following installed:
    Create a `.env` file and add:
 
    ```env
-   GEMINI_API_KEY=your_gemini_api_key
+    api_url=https://api-inference.huggingface.co/models/Salesforce/blip-image-captioning-large
+    api_key=huggingface_api_key
+    otherImg_url=https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell
+    otherImg_key=huggingface_api_key
+    gemini_key=
+
    ```
 
 3. **Run the Application**
 
    ```sh
-   streamlit run app.py
+   streamlit run PageInsighter.py
    ```
+   or
 
-4. **Access the Web App**
+   ```sh
+     python -m streamlit run PageInsighter.py
+
+5. **Access the Web App**
    Open your browser and go to:
 
    ```
@@ -100,7 +109,7 @@ This project is licensed under the **MIT License**.
 
 ## Contact
 
-For queries, reach out at **[your.email@example.com](mailto\:your.email@example.com)** or open an issue.
+For queries, reach out at **[karanstdio1234@gmail.com](mailto\:karanstdio1234@gmail.com)** or open an issue.
 
 ---
 
