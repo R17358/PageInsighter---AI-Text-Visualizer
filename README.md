@@ -66,12 +66,12 @@ Ensure you have the following installed:
 3. **Run the Application**
 
    ```sh
-   streamlit run PageInsighter.py
+   streamlit run main.py
    ```
    or
 
    ```sh
-     python -m streamlit run PageInsighter.py
+     python -m streamlit run main.py
 
 5. **Access the Web App**
    Open your browser and go to:
