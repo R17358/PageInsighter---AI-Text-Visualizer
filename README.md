@@ -2,6 +2,9 @@
 
 # PageInsighter - AI Text Visualizer
 
+Live: https://text-visualizer-deploy.onrender.com
+
+
 ## Overview
 
 **PageInsighter** is a Python-based web application that helps users visualize textual content from images or PDFs by generating real-time AI-driven images based on context and meaning. Additionally, it provides text summarization, translation, and mathematical problem-solving capabilities. Future enhancements will include **AR/VR features** for an immersive experience.
